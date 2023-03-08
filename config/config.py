@@ -33,7 +33,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = getenv("LOG_GROUP_ID", "-1001814566246")
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("life time music bot")
+MUSIC_BOT_NAME = "life time music bot"
 
 # Your User ID.
 OWNER_ID = list(
@@ -58,10 +58,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", None
+    "SUPPORT_CHANNEL", "https://t.me/+ZqD53ZdYxe0zMTc1" 
 )  # Example:- https://t.me/TheYukki
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", None
+    "SUPPORT_GROUP", "https://t.me/+ZqD53ZdYxe0zMTc1" 
 )  # Example:- https://t.me/YukkiSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -161,7 +161,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", None)
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/3700df1e243cbf1225100.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
